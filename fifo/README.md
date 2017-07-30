@@ -4,22 +4,22 @@ FIFO can be used among processes without any relations (i.e., no need to be pare
 
 Usages:
 
-1. Start server
+1 Start server
 
-root@ubuntu:/ipc/fifo# ./server 
-SERVER: Begin to make fifo 1...
-SERVER: Begin to make fifo 2...
-SERVER: Read & Write
-SERVER: read pathname from readfd
-root@ubuntu:/ipc/fifo# 
+	root@ubuntu:/ipc/fifo# ./server 
+	SERVER: Begin to make fifo 1...
+	SERVER: Begin to make fifo 2...
+	SERVER: Read & Write
+	SERVER: read pathname from readfd
+	root@ubuntu:/ipc/fifo# 
 
 
-2. Start client
+2 Start client
 
-root@ubuntu:/ipc/fifo# ./client 
-CLIENT: Pls input pathname to read
-
-/ipc/fifo/testfile [This is the input]
-
-This is a testfile.
+	root@ubuntu:/ipc/fifo# ./client 
+	CLIENT: Pls input pathname to read
+	
+	/ipc/fifo/testfile [This is the input]
+	
+	This is a testfile.
 
